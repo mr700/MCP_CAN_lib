@@ -29,7 +29,9 @@
 #include <inttypes.h>
 
 // if print debug information
-#define DEBUG_MODE 1
+#ifndef DEBUG_MODE
+#define DEBUG_MODE 0
+#endif // DEBUG_MODE
 
 /*
  *   Begin mt
