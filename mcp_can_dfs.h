@@ -28,14 +28,6 @@
 #include <SPI.h>
 #include <inttypes.h>
 
-#ifndef INT32U
-#define INT32U unsigned long
-#endif
-
-#ifndef INT8U
-#define INT8U byte
-#endif
-
 // if print debug information
 #define DEBUG_MODE 1
 
